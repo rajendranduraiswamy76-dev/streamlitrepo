@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+.vscode
+.idea

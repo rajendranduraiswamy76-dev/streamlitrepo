@@ -1,4 +1,5 @@
 
+https://docs.streamlit.io/develop/quick-reference/cheat-sheet
 
 py -m venv .venv
 
@@ -14,6 +15,10 @@ git remote add origin https://github.com/asoknaren/streamlitrepo.git; git remote
 
 
 
- streamlit run .\zfullapp.py
+ streamlit run zfullapp.py
 
- 
+ streamlit run multipage.py
+
+ docker build -t testwebstreamlit:latest .
+
+ docker run -d --name testwebstreamlit-app -p 8501:8501 testwebstreamlit:latest
