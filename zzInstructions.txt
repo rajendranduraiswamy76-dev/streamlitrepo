@@ -1,5 +1,7 @@
 
 https://docs.streamlit.io/develop/quick-reference/cheat-sheet
+https://pandas.pydata.org/docs/getting_started/index.html
+
 
 py -m venv .venv
 
