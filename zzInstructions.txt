@@ -1,0 +1,19 @@
+
+
+py -m venv .venv
+
+Activate it
+.venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+
+deactivate
+
+
+git remote add origin https://github.com/asoknaren/streamlitrepo.git; git remote -v
+
+
+
+ streamlit run .\zfullapp.py
+
+ 
