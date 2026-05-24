@@ -1,5 +1,8 @@
 
 https://docs.streamlit.io/develop/quick-reference/cheat-sheet
+
+https://pandas.pydata.org/docs/getting_started/install.html
+https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
 https://pandas.pydata.org/docs/getting_started/index.html
 
 
