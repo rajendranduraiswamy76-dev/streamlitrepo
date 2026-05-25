@@ -7,9 +7,11 @@ https://pandas.pydata.org/docs/getting_started/index.html
 
 
 py -m venv .venv
+python3 -m venv .venv
 
 Activate it
-.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1  ------- windows
+source .venv/bin/activate   ------- mac
 
 pip install -r requirements.txt
 
