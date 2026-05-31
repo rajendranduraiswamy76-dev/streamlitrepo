@@ -20,17 +20,19 @@ deactivate
 
 git remote add origin https://github.com/asoknaren/streamlitrepo.git; git remote -v
 
-
 streamlit run 1start.py
 
 streamlit run 2intractivewidgets.py
 
 streamlit run 2interactivewidgets_Oraganized.py
 
- streamlit run zfullapp.py
+streamlit run zfullapp.py
 
- streamlit run multipage.py
+streamlit run multipage.py
 
- docker build -t testwebstreamlit:latest .
+streamlit run usql_librarybookslist.py
+streamlit run usql_librarybookslist_sqlalchemy.py
 
- docker run -d --name testwebstreamlit-app -p 8501:8501 testwebstreamlit:latest
+docker build -t testwebstreamlit:latest .
+
+docker run -d --name testwebstreamlit-app -p 8501:8501 testwebstreamlit:latest
