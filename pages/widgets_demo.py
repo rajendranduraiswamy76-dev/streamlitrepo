@@ -7,9 +7,7 @@ st.download_button("Download file", data="Hello, world!", file_name="hello.txt",
 st.link_button("Go to gallery", "https://gallery.streamlit.io", key="btn_link")
 st.menu_button("Export", options=["CSV", "JSON", "PDF"], key="btn_menu")
 
-#st.page_link("pages/subpage1.py", label="Subpage 1")
-
-
+st.page_link("pages/subpage1.py", label="Subpage 1")
 
 st.checkbox("I agree", key="chk_agree")
 st.feedback("thumbs", key="fbk_thumbs")

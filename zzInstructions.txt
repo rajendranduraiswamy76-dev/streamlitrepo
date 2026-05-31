@@ -21,6 +21,11 @@ deactivate
 git remote add origin https://github.com/asoknaren/streamlitrepo.git; git remote -v
 
 
+streamlit run 1start.py
+
+streamlit run 2intractivewidgets.py
+
+streamlit run 2interactivewidgets_Oraganized.py
 
  streamlit run zfullapp.py
 
