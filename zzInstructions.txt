@@ -5,6 +5,7 @@ https://pandas.pydata.org/docs/getting_started/install.html
 https://pandas.pydata.org/docs/getting_started/intro_tutorials/index.html
 https://pandas.pydata.org/docs/getting_started/index.html
 
+#-------- VIRTUAL ENVIRONMENT ------------------------
 
 py -m venv .venv
 python3 -m venv .venv
@@ -17,8 +18,12 @@ pip install -r requirements.txt
 
 deactivate
 
+#-------- VIRTUAL ENVIRONMENT ------------------------
 
-git remote add origin https://github.com/asoknaren/streamlitrepo.git; git remote -v
+git remote add origin https://github.com/asoknaren/streamlitrepo.git; 
+git remote -v
+
+#-------- STREAMLIT RUN COMMANDS -----------------------
 
 streamlit run 1start.py
 
